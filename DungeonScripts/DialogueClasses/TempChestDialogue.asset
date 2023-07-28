@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af77417d7d4146e47b0eb3ecb165c50b, type: 3}
+  m_Name: TempChestDialogue
+  m_EditorClassIdentifier: 
+  pages:
+  - index: 0
+    nextPageIndex: 1
+    text: You search the chest...
+    responses: []
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  - index: 1
+    nextPageIndex: -1
+    text: You find a rusty key and 50 cold coins...
+    responses: []
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  currentPage:
+    index: 0
+    nextPageIndex: 0
+    text: 
+    responses: []
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  finalPageIndex: -1

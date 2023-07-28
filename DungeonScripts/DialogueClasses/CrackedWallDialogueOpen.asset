@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af77417d7d4146e47b0eb3ecb165c50b, type: 3}
+  m_Name: CrackedWallDialogueOpen
+  m_EditorClassIdentifier: 
+  pages:
+  - index: 0
+    nextPageIndex: 1
+    text: You notice large cracks in this section of the wall.
+    responses: []
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  - index: 1
+    nextPageIndex: 2
+    text: With some effort you may make a hole that's wide enough to pass.
+    responses: []
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  - index: 2
+    nextPageIndex: -1
+    text: Would you like to attempt to pass through the crack?
+    responses:
+    - text: Yes.
+      type: 3
+    - text: No.
+      type: 5
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  currentPage:
+    index: 2
+    nextPageIndex: -1
+    text: Would you like to attempt to pass through the crack?
+    responses:
+    - text: Yes.
+      type: 3
+    - text: No.
+      type: 4
+    associatedSpeakerName: 
+    associatedSpeakerImage: {fileID: 0}
+  finalPageIndex: -1

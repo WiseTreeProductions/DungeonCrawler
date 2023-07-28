@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af77417d7d4146e47b0eb3ecb165c50b, type: 3}
+  m_Name: GuardDialogue
+  m_EditorClassIdentifier: 
+  pages:
+  - index: 0
+    nextPageIndex: 1
+    text: Halt citizen! I'm afraid you don't have a loicence to proceed beyoned this
+      point.
+    responses: []
+    associatedSpeakerName: Fun police
+    associatedSpeakerImage: {fileID: 21300000, guid: cac61ee32c2194f40a990f552af287ad,
+      type: 3}
+  - index: 1
+    nextPageIndex: -1
+    text: I must ask you to turn around.
+    responses:
+    - text: Why can't I pass?
+      type: 2
+    - text: I don't care. Let me through.
+      type: 1
+    - text: Very well.
+      type: 0
+    - text: aaaaaaaaaa
+      type: 3
+    - text: bbbbbbbbbb
+      type: 3
+    associatedSpeakerName: Fun police
+    associatedSpeakerImage: {fileID: 21300000, guid: cac61ee32c2194f40a990f552af287ad,
+      type: 3}
+  - index: 2
+    nextPageIndex: 1
+    text: This part of the dungeon is still not finished and it's not safe to walk
+      around there.
+    responses: []
+    associatedSpeakerName: Fun police
+    associatedSpeakerImage: {fileID: 21300000, guid: cac61ee32c2194f40a990f552af287ad,
+      type: 3}
+  - index: 3
+    nextPageIndex: -1
+    text: I cannot stop you, sir, as the government forbids us from carrying weapons,
+      but if you decide to go further, please watch your step.
+    responses: []
+    associatedSpeakerName: Fun police
+    associatedSpeakerImage: {fileID: 21300000, guid: cac61ee32c2194f40a990f552af287ad,
+      type: 3}
+  currentPage:
+    index: 3
+    nextPageIndex: -1
+    text: I cannot stop you, sir, as the government forbids us from carrying weapons,
+      but if you decide to go further, please watch your step.
+    responses: []
+    associatedSpeakerName: Fun police
+    associatedSpeakerImage: {fileID: 21300000, guid: cac61ee32c2194f40a990f552af287ad,
+      type: 3}
+  finalPageIndex: -1
